@@ -72,9 +72,4 @@ async function enviarAlServidor(producto) {
     }
 }
 
-async function agregarProductos(producto){
-    
-    
-}
-
 document.addEventListener("DOMContentLoaded", obtenerProductos);
