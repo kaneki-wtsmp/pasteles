@@ -1,0 +1,30 @@
+[
+  {
+    "id": "2",
+    "nombre": "Sandwich de Fresa y crema",
+    "precio": 45,
+    "img": "https://i.pinimg.com/736x/5f/16/86/5f1686d35102cacf2bfbf46f2938ed31.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": "3",
+    "nombre": "Cheesecake de Chocolate",
+    "precio": 60,
+    "img": "https://i.pinimg.com/1200x/f4/ce/e5/f4cee5e7149731cc9dd440115a194fbf.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": "4",
+    "nombre": "Roll de Oreo",
+    "precio": 40,
+    "img": "https://i.pinimg.com/736x/99/3a/1b/993a1b26ffe5e9e1df030cf498aed76c.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": "7",
+    "nombre": "Pastel de Arándano",
+    "precio": 250,
+    "img": "https://i.pinimg.com/1200x/d6/02/c3/d602c33ad9463f2f98a83d94d7a6830f.jpg",
+    "cantidad": 1
+  }
+]

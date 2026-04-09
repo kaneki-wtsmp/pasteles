@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "codigo": "CAFE20", 
+        "titulo": "20% OFF aprovecha el descuento para tu chocolate",
+        "minimo": 200,
+        "icono": "☕",
+        "mensajeExito": "Se aplico el descuento ☕",
+        "mensajeError": "Aun no llegas al mínimo ☕"
+    },
+    {
+        "id": 2,
+        "codigo": "DULCE10",
+        "titulo": "10% OFF Dulces",
+        "minimo": 500,
+        "icono": "🍰",
+        "mensajeExito": "Listo tienes 10% menos 🍰",
+        "mensajeError": "Falta un poco mas para usarlo 🍰"
+    },
+    {
+        "id": 3,
+        "codigo": "PAN15",
+        "titulo": "15% OFF sera que te gusta el lo dulce?",
+        "minimo": 300,
+        "icono": "🥐",
+        "mensajeExito": "Descuento aplicado 🥐",
+        "mensajeError": "Sigue sumando para este descuento 🥐"
+    },
+    {
+        "id": 4,
+        "codigo": "POSTRE25",
+        "titulo": "25% OFF a comprar Postres",
+        "minimo": 400,
+        "icono": "🍮",
+        "mensajeExito": "¡Postre con descuento! 🍮",
+        "mensajeError": "Aún no alcanzas el mínimo para este postre 🍮"
+    },
+    {
+        "id": 5,
+        "codigo": "MERIENDA5",
+        "titulo": "5% OFF Merienda",
+        "minimo": 150,
+        "icono": "🍩",
+        "mensajeExito": "Descuento para tu merienda 🍩",
+        "mensajeError": "Sigue sumando para tu merienda 🍩"
+    }
+]

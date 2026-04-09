@@ -1,0 +1,14 @@
+[
+  { "id": 1, "nombre": "Gelatina de Fresa", "precio": 35.00, "img": "https://i.pinimg.com/736x/b4/47/3b/b4473b8c32bb0a7412b826ff5d90d449.jpg" },
+  { "id": 2, "nombre": "Sandwich de Fresa y crema", "precio": 45.00, "img": "https://i.pinimg.com/736x/5f/16/86/5f1686d35102cacf2bfbf46f2938ed31.jpg" },
+  { "id": 3, "nombre": "Cheesecake de Chocolate", "precio": 60.00, "img": "https://i.pinimg.com/1200x/f4/ce/e5/f4cee5e7149731cc9dd440115a194fbf.jpg" },
+  { "id": 4, "nombre": "Roll de Oreo", "precio": 40.00, "img": "https://i.pinimg.com/736x/99/3a/1b/993a1b26ffe5e9e1df030cf498aed76c.jpg" },
+  { "id": 5, "nombre": "Crepa de Chocolate", "precio": 80.00, "img": "https://i.pinimg.com/736x/70/ef/c3/70efc332d383252b7dc39373b6b05ebe.jpg" },
+  { "id": 6, "nombre": "Helado de Arándano", "precio": 35.00, "img": "https://i.pinimg.com/736x/e5/98/b0/e598b0d9cdb06f8898d5989f5dc2ca74.jpg" },
+  { "id": 7, "nombre": "Pastel de Arándano", "precio": 250.00, "img": "https://i.pinimg.com/1200x/d6/02/c3/d602c33ad9463f2f98a83d94d7a6830f.jpg" },
+  { "id": 8, "nombre": "Pastelitos de Frutas", "precio": 35.00, "img": "https://i.pinimg.com/736x/bd/a9/eb/bda9eb6695f6b2191ba1c43e3babbb1e.jpg" },
+  { "id": 9, "nombre": "Roll con Chocolate y Fresa", "precio": 65.00, "img": "https://i.pinimg.com/1200x/f5/55/d8/f555d8f2f1f4fc0137ace21c7e70a231.jpg" },
+  { "id": 10, "nombre": "Waffle de Chocolate", "precio": 70.00, "img": "https://i.pinimg.com/736x/11/82/c0/1182c0ced0e7822d8a37e2d706115ff5.jpg" },
+  { "id": 11, "nombre": "Chocolate caliente", "precio": 30.00, "img": "https://i.pinimg.com/736x/d5/f9/63/d5f9636f55a7a30bfbce5e96c06ea5d5.jpg" },
+  { "id": 12, "nombre": "Macarrones", "precio": 70.00, "img": "https://i.pinimg.com/1200x/bf/b7/21/bfb721f7550012bd086a4b9c017b5df7.jpg" }
+]

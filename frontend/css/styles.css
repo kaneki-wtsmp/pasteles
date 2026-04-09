@@ -1,0 +1,228 @@
+
+@keyframes fadein {
+    from { opacity: 0; transform: translate(-50%, -60%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; transform: translate(-50%, -50%); }
+    to { opacity: 0; transform: translate(-50%, -40%); }
+}
+body {
+    background-color: #E1B8A2;
+    font-family: "Lobster Two", sans-serif;
+}
+
+.hero {
+    background: url('https://i.pinimg.com/1200x/d9/bb/e7/d9bbe713c1e74725baa48bba81361b17.jpg') center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fffbc9;
+}
+.hero h5 {
+    font-size: 5rem; 
+    margin-bottom: 5px;
+}
+.hero h1 {
+    font-size: 4rem; 
+    margin-bottom: 5px;
+}
+.brands {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #6B6D43;
+}
+
+.navbar,
+.mi-seccion {
+    background-color: #E1B8A2;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    background-color: #CF7D65;
+    color: #000;
+}
+
+.mi-boton {
+    background-color: #264338;
+    color: #ffff;
+}
+.mi-boton:hover {
+    background-color: #4cb08a;
+}
+
+
+.mi-eli {
+    background-color: #3c545f;
+    color: #ffff;
+}
+
+.mi-bott {
+    background-color: #ff1e1e;
+}
+.mi-bott:hover {
+    background-color: #264338;
+}
+
+.coupon-card {
+    background: #fff;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+.coupon-top {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.coupon-icon {
+    width: 50px;
+    height: 50px;
+    background: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 1px solid #eee;
+}
+
+.coupon-divider {
+    border-top: 2px dashed #ececec;
+    position: relative;
+    margin: 0 15px;
+}
+
+.coupon-divider::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: #CF7D65;
+    border-radius: 50%;
+    left: -27px;
+    top: -12px;
+}
+
+.coupon-divider::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: #CF7D65;
+    border-radius: 50%;
+    right: -27px;
+    top: -12px;
+}
+
+.coupon-bottom {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #3483fa !important;
+    border: none;
+    font-weight: bold;
+}
+
+.mi-total {
+    min-width: 300px; 
+    text-align: right;
+}
+
+#linea-descuento {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ticket-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.ticket-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    font-family: monospace;
+    animation: aparecer 0.3s ease;
+}
+
+.ticket-box h4 {
+    text-align: center;
+}
+
+.ticket-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.ticket-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.ticket-descuento {
+    display: flex;
+    justify-content: space-between;
+    color: green;
+}
+
+.ticket-footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.ticket-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #459677;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@keyframes aparecer {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
